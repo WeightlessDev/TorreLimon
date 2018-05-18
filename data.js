@@ -1,6 +1,6 @@
 var APP_DATA = {
   "scenes": [
-  {
+    {
       "id": "0-sala",
       "name": "Sala",
       "levels": [
@@ -20,102 +20,28 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -2.195157587242189,
-        "pitch": 0.004987735488249712,
+        "yaw": -2.094019815801076,
+        "pitch": 0.13656118008812257,
         "fov": 1.5601080270670864
       },
       "linkHotspots": [
         {
-          "yaw": 0.0040114931797266,
-          "pitch": 0.06135923695990009,
-          "rotation": 4.71238898038469,
-          "target": "3-habitacion-master"
+          "yaw": 0.005752317288436615,
+          "pitch": 0.047215035483617385,
+          "rotation": 0,
+          "target": "1-habitacion-master"
         },
         {
-          "yaw": 1.0805661638091628,
-          "pitch": 0.106145255158685,
-          "rotation": 15.707963267948973,
-          "target": "1-cocina"
+          "yaw": 1.0651550611807128,
+          "pitch": 0.06411090295073762,
+          "rotation": 0,
+          "target": "3-cocina"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-bao",
-      "name": "Baño",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 0.7206914877786037,
-        "pitch": 0.037038367175334486,
-        "fov": 1.5601080270670864
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.5095454241190644,
-          "pitch": 0.07219890186487632,
-          "rotation": 14.137166941154074,
-          "target": "3-habitacion-master"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-cocina",
-      "name": "Cocina",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -3.117481075105964,
-        "pitch": 0.048331875904413124,
-        "fov": 1.5601080270670864
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.0735796021099624,
-          "pitch": 0.04506425499928213,
-          "rotation": 3.141592653589793,
-          "target": "2-sala"
-        },
-        {
-          "yaw": 1.3190384363421437,
-          "pitch": 0.042656245354351086,
-          "rotation": 7.853981633974483,
-          "target": "4-habitacion"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-habitacion-master",
+      "id": "1-habitacion-master",
       "name": "Habitacion Master",
       "levels": [
         {
@@ -134,22 +60,90 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.6337017047964046,
-        "pitch": 0.01917803878916402,
+        "yaw": 0.28718599510089327,
+        "pitch": 0.014483761524513028,
         "fov": 1.5601080270670864
       },
       "linkHotspots": [
         {
-          "yaw": -1.7980371772391344,
-          "pitch": 0.08170504779785759,
-          "rotation": 1.5707963267948966,
-          "target": "2-sala"
+          "yaw": 2.612342809643831,
+          "pitch": 0.0638022156568887,
+          "rotation": 0,
+          "target": "2-bao-master"
         },
         {
-          "yaw": 2.5273397517039164,
-          "pitch": 0.09573807228704467,
-          "rotation": 4.71238898038469,
-          "target": "0-bao"
+          "yaw": -1.8573597695443436,
+          "pitch": 0.06427135119769645,
+          "rotation": 0,
+          "target": "0-sala"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-bao-master",
+      "name": "Baño Master",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 0.9631044145096066,
+        "pitch": 0.18828889981843133,
+        "fov": 1.5601080270670864
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.5920052888144838,
+          "pitch": -0.06556715505421273,
+          "rotation": 0,
+          "target": "1-habitacion-master"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-cocina",
+      "name": "Cocina",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.9942656001220485,
+        "pitch": 0.1569635808284673,
+        "fov": 1.5601080270670864
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.337663604705,
+          "pitch": 0.04715400565296868,
+          "rotation": 0,
+          "target": "4-habitacion"
         }
       ],
       "infoHotspots": []
@@ -174,16 +168,16 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -0.40823081366572467,
-        "pitch": 0.013209656772090739,
+        "yaw": -0.3633458170060955,
+        "pitch": 0.07034955705054458,
         "fov": 1.5601080270670864
       },
       "linkHotspots": [
         {
-          "yaw": 1.7306544001421695,
-          "pitch": 0.0025743929894268547,
-          "rotation": 1.5707963267948966,
-          "target": "2-sala"
+          "yaw": 1.8275949034535053,
+          "pitch": 0.02838395008195249,
+          "rotation": 0,
+          "target": "0-sala"
         }
       ],
       "infoHotspots": []
@@ -192,8 +186,8 @@ var APP_DATA = {
   "name": "Torre Limon",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
-    "fullscreenButton": true,
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };
