@@ -1,81 +1,7 @@
 var APP_DATA = {
   "scenes": [
-    {
-      "id": "0-bao",
-      "name": "Baño",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 0.7206914877786037,
-        "pitch": 0.037038367175334486,
-        "fov": 1.5601080270670864
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.5095454241190644,
-          "pitch": 0.07219890186487632,
-          "rotation": 14.137166941154074,
-          "target": "3-habitacion-master"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-cocina",
-      "name": "Cocina",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -3.117481075105964,
-        "pitch": 0.048331875904413124,
-        "fov": 1.5601080270670864
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.0735796021099624,
-          "pitch": 0.04506425499928213,
-          "rotation": 3.141592653589793,
-          "target": "2-sala"
-        },
-        {
-          "yaw": 1.3190384363421437,
-          "pitch": 0.042656245354351086,
-          "rotation": 7.853981633974483,
-          "target": "4-habitacion"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-sala",
+  {
+      "id": "0-sala",
       "name": "Sala",
       "levels": [
         {
@@ -110,6 +36,80 @@ var APP_DATA = {
           "pitch": 0.106145255158685,
           "rotation": 15.707963267948973,
           "target": "1-cocina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-bao",
+      "name": "Baño",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 0.7206914877786037,
+        "pitch": 0.037038367175334486,
+        "fov": 1.5601080270670864
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.5095454241190644,
+          "pitch": 0.07219890186487632,
+          "rotation": 14.137166941154074,
+          "target": "3-habitacion-master"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-cocina",
+      "name": "Cocina",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -3.117481075105964,
+        "pitch": 0.048331875904413124,
+        "fov": 1.5601080270670864
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.0735796021099624,
+          "pitch": 0.04506425499928213,
+          "rotation": 3.141592653589793,
+          "target": "2-sala"
+        },
+        {
+          "yaw": 1.3190384363421437,
+          "pitch": 0.042656245354351086,
+          "rotation": 7.853981633974483,
+          "target": "4-habitacion"
         }
       ],
       "infoHotspots": []
